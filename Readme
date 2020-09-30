@@ -1,0 +1,8 @@
+Im currently working on my final project - a robot arm that can tattoo (draw) on 3 dimensional object such as an arm(cylinder), back(plane), or head(spherical) and was looking for a power supply. The drivers im using are from Odrive which require between 12-24 volts and 50-60A. Searching online i found power supplies but really expensive till i found the following video:
+
+Julian Ilett
+https://youtu.be/IYsw97DuKJ4
+
+These are HP server power supplies that can deliver 12V @ 37-100A, depending on the one you get for less than $30.00.
+
+There are breakout boards you can buy. There are some hacks to. Below is a simple hack to turn on the the power supply. You can run a 510ohm resistor between 33 and 36 pins. I traced the pins to the board to board connector and connected the resistor there, between pins 1 and 4.
