@@ -5,4 +5,8 @@ https://youtu.be/IYsw97DuKJ4
 
 These are HP server power supplies that can deliver 12V @ 37-100A, depending on the one you get for less than $30.00.
 
+Pic1 - shows the specs oh the HP DPS-750RB A power supply.
+Pic2 - shows the overall form factor
+
 There are breakout boards you can buy. There are some hacks to. Below is a simple hack to turn on the the power supply. You can run a 510ohm resistor between 33 and 36 pins. I traced the pins to the board to board connector and connected the resistor there, between pins 1 and 4.
+Pic2 - shows the location of pins 33 and 36 and pins 1 and 4 for the board connector.
